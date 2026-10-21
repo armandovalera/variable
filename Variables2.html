@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Variables CSS</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="tarjeta">
+    
+    <h1>armando.valera@uacm.edu.mx</h1>
+    <h2>Variables en CSS</h2>
+
+    <p>Cambia el diseño completo modificando unos pocos valores.</p>
+    <button class="boton">Aceptar</button>
+    <button class="boton boton-peligro">Eliminar</button>
+    <button class="boton" id="tema">Cambiar tema</button>
+  </div>
+
+  <script>
+    document.getElementById("tema").addEventListener("click", () => {
+      document.body.classList.toggle("oscuro");
+    });
+  </script>
+</body>
+</html>

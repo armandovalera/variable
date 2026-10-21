@@ -1,0 +1,16 @@
+body{
+    color:lightblue;
+    animation: colores 10s ease-in-out 2s infinite alternate;    
+}
+
+@keyframes colores {
+    0%{ background-color: rgb(35, 72, 237);}
+    25%{background-color: chartreuse; color:navy; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    50%{background-color: blueviolet; color:azure;}
+    75%{background-color: chocolate; color:bisque}
+    100%{background-color: lightseagreen;}
+}
+
+
+
+
